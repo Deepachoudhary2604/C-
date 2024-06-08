@@ -1,0 +1,13 @@
+#include <bits/stdc++.h> 
+string replaceSpaces(string &str){
+	string p;
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i]==' '){
+		    p+="@40";
+		}
+		else{
+			p+=str[i];
+	    }
+    }
+    return p;
+}
